@@ -1,0 +1,147 @@
+@charset "utf-8";
+body, html{ height:100%;}
+body{font-family: 'Indie Flower', cursive;
+     font-size:100%;
+	 background:url(../img/bg.jpg);
+	 background-attachment:fixed;
+	 }
+#header{
+	height:100%;
+	}
+#wrapper{
+	height:100%;
+	background:url(../img/background-section.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-bottom:1em solid #CCC;
+	
+	}
+#content{
+height:100%;
+width:100%;
+display:table;}
+
+#content-box{
+display: table-cell;
+vertical-align:top;
+text-align:center;
+}
+
+
+#header img{
+	 width: 23em;
+	 display:inline;
+	 }
+	 
+#header p {
+	font-size:2em;
+    font-weight:bolder;
+	 margin:1em 0;}
+#header p:hover{ color:#009;}
+#header #content a{
+	background-color:#900;
+	font-size:4em;
+	padding:0.15em 0.5em;
+	color:#F90;
+	text-decoration:none;
+	opacity:0.6;
+	border: 0.15 solid #063;}
+	
+	#header #content a:hover{
+		background-color:#FFF;
+		opacity:1;
+	}
+.navbar{
+	background-color:transparent;
+	border:0;
+	padding:2em;
+	}
+.navbar button{
+	background-color:#600;}
+.navbar button:hover{
+	background-color:#003;}
+.navbar-brand{color:#000!important;
+              font-size:3em;
+}
+.navbar a:not(.navbar-brand){
+	color:#900!important;
+	font-size:2em;
+	font-weight:bolder;}
+.navbar a:hover{color:#333!important;}
+#photo{padding: 3em 2em;}
+#col-md-4{position:relative;}
+#photo img{ width: 100%;
+            height: 30em;
+			margin: 2em 0;
+			border-radius:2em;
+			transition: transform 1.5s ease-in-out;
+			}
+#photo img:hover{opacity:0.8;
+transform:scale(1.15);}
+
+#photo h2{
+	position: absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-top:0.15em solid black;
+	border-bottom:0.15em solid black;
+	color:#006;
+	display:none;
+	font-size:4em;}
+	
+	#photo .col-md-4:hover h2{
+		display:block;}
+		
+/*form*/
+#form{padding:3em 2em;}
+#form h1{color:#CCC;}
+.form{background:#000;
+color:#CCC;
+opacity:0.6;
+padding:2em 1em;
+height:68em;
+}
+.form button{background-color:#0CF;
+font-size:3em;}
+.form p {font-size:2em;}
+.iframe{padding: 2em 1em;
+height:68em;
+background-color:#FFF;
+}
+.iframe iframe{ height:30em;}
+/*footer*/
+footer .fa{color:#0FF;
+font-size:4em;
+padding:10px;}
+footer h3{color:#CCC;}
+footer h2{color:#CCC;
+font-size:4em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
